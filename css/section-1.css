@@ -1,0 +1,25 @@
+.section-1 {
+    margin-top: 50px;
+    max-width: 1100px;
+    margin: auto;
+    padding: 10px;
+}
+
+.desc-section-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: .40rem;
+}
+.desc-section-1 a {
+    color: #000;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 1rem;
+}
+
+.desc-section-1 .nome {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
