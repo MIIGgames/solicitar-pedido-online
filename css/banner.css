@@ -1,5 +1,5 @@
 .banner {
-    background-image: url(../img/banner.png);
+    background-image: url("../img/banner.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -98,6 +98,15 @@
 }
 
 @media screen and (max-width:768px) {
+    .banner {
+        background-image: url("../img/banner-mobile.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 130vh;
+        width: 100%;
+    }
     .banner .titulo-banner {
         width: 100%;
     }
